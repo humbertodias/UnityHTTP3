@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel> <!-- Configure for in-process hosting with Kestrel -->
+    <Nullable>enable</Nullable> <!-- Enable nullable reference types for better safety -->
+    <EnablePreviewFeatures>true</EnablePreviewFeatures>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Adding the necessary package for Kestrel -->
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <!--
+  <ItemGroup>
+    <Reference Include="QuicNet">
+      <HintPath>../../../UnityHTTP3/Assets/Plugins/Quic.NET/libs/netstandard2.1/QuicNet.dll</HintPath>
+    </Reference>
+    <Reference Include="QuicNet.Utilities">
+      <HintPath>../../../UnityHTTP3/Assets/Plugins/Quic.NET/libs/netstandard2.1/QuicNet.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="QuicNet.Infrastructure">
+      <HintPath>../../../UnityHTTP3/Assets/Plugins/Quic.NET/libs/netstandard2.1/QuicNet.Infrastructure.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  -->
+  
+</Project>
