@@ -72,3 +72,10 @@ crashlytics-build.properties
 
 # Custom Build settings
 /[Aa]ssets/[Tt]utorialInfo
+.idea
+
+
+*.csproj
+*.unityproj
+*.sln
+*.suo

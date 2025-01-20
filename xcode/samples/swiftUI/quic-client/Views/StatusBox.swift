@@ -18,7 +18,7 @@ struct StatusBox: View {
         }
         .padding()
         .frame(maxWidth: .infinity)
-        .background(Color(.systemGray6))
+        .background(Color.gray.opacity(0.2))
         .cornerRadius(15)
         .shadow(radius: 5)
         .padding(.horizontal, 40)

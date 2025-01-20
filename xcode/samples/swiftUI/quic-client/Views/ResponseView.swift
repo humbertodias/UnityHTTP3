@@ -38,6 +38,6 @@ struct ResponseView: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
             }
         }
-        .navigationBarHidden(true)
+        //.navigationBarHidden(true)
     }
 }

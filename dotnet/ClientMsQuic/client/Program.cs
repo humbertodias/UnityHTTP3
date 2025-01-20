@@ -4,7 +4,6 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using Microsoft.Quic;
-using System.Numerics;
 
 namespace MsQuicTool
 {
